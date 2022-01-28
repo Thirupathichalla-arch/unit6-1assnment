@@ -165,10 +165,9 @@ a {
     margin-left:63%;
 }
 #pages{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-grow: grow;
+    padding-top:100px;
+    display: grid;
+ grid-template-columns: 25% 25% 25% 25%;
 
 }
 /* .tab {
