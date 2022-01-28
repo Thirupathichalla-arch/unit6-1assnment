@@ -171,11 +171,14 @@ a {
 
 }
 #pages img{
-    height:50px;
+    height:40px;
+    padding:10px;
+
 }
 #pages p{
     font-size:20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:100px;
 
 }
 /* .tab {
