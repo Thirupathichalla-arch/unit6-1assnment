@@ -166,6 +166,9 @@ a {
 }
 #pages{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: grow;
 
 }
 /* .tab {
