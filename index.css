@@ -273,9 +273,16 @@ a {
     flex-wrap: wrap;
     margin-left:250px;
     
+    
+}
+.Tag:hover{
+transform: translateY(-0.4em);
+transition: all 0.5s;
+cursor: pointer;
 }
 
 .Tag {
+    
     position: relative;
     display: flex;
     flex-direction: column;
