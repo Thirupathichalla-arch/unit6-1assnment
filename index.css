@@ -107,13 +107,13 @@
 
 .symbol {
     display: inline-block;
-    margin-left: 350px
+    margin-left: 300px
 }
 
 .add {
     display: inline-block;
     text-align: right;
-    margin-left: 30px;
+    margin-left: 10px;
     border: 1px solid black;
     padding: 10px;
     background-color: #6432f9;
@@ -130,7 +130,7 @@ a {
 .sinin {
     display: inline-block;
     text-align: right;
-    margin-left: 30px;
+    margin-left: 10px;
     color: white;
     font-size:20px;
 }
