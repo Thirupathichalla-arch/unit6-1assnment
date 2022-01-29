@@ -170,6 +170,81 @@ a {
     grid-template-columns: 25% 25% 25% 25%;
 
 }
+#mDiv {
+    width: 100%;
+    background-color: #2e3035;
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    grid-gap: 1%;
+}
+
+#prod {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#prod div img {
+    border-radius: 10px;
+}
+
+#prod p {
+    text-align: center;
+    color: white;
+}
+
+#prod1 div img {
+    border-radius: 10px;
+}
+
+#prod div:hover {
+    transform: translateY(-0.4em);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#prod1 div:hover {
+    transform: translateY(-0.4em);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#prod2 div:hover {
+    transform: translateY(-0.4em);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#prod3 div:hover {
+    transform: translateY(-0.4em);
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+#prod1 p {
+    text-align: center;
+    color: white;
+}
+
+#prod2 div img {
+    border-radius: 10px;
+}
+
+#prod2 p {
+    text-align: center;
+    color: white;
+}
+
+#prod3 div img {
+    border-radius: 10px;
+}
+
+#prod3 p {
+    text-align: center;
+    color: white;
+}
 
 /* .tab {
     display: flex;
