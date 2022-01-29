@@ -142,7 +142,7 @@ var myHeaders = new Headers();
 
     fetch("https://api.imgur.com/3/gallery/top/viral/month/1?showViral=true&mature=true&album_previews=true", requestOptions)
         .then(response => response.json())
-        .then(result => showProd(result.data))
+        .then(result => showproduct(result.data))
         .catch(error => console.log('error', error));
 
 
@@ -150,7 +150,7 @@ var myHeaders = new Headers();
     let parent1 = document.getElementById('prod1');
     let parent2 = document.getElementById('prod2');
     let parent3 = document.getElementById('prod3');
-    function showProd(data)
+    function showproduct(data)
     {
         
         let data1=data.slice(0,15);
