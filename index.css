@@ -164,13 +164,8 @@ a {
 .more{
     margin-left:63%;
 }
-#pages{
-    padding-top:100px;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
 
-}
-#ProductDiv {
+#ProductDiv{
     width: 100%;
     background-color: #2e3035;
     display: grid;
@@ -178,14 +173,14 @@ a {
     grid-gap: 1%;
 }
 
-#pro {
+#pro{
     width: 90%;
     margin-left: 5%;
     display: flex;
     flex-direction: column;
 }
 
-#pro div img {
+#pro div img{
     border-radius: 10px;
 }
 
@@ -216,12 +211,7 @@ a {
     cursor: pointer;
 }
 
-#pro3 div:hover {
-    transform: translateY(-0.4em);
-    transition: all 0.5s;
-    cursor: pointer;
 
-}
 
 #pro1 p {
     text-align: center;
@@ -239,7 +229,7 @@ a {
 
 
 .imgGif {
-    width: 25%;
+    width: 100%;
 }
 
 /* .tab {
