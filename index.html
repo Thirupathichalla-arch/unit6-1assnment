@@ -110,20 +110,18 @@
 
      
 </div>
-<div id="mDiv">
+<div id="ProductDiv">
 
-    <div id="prod">
+    <div id="pro">
     
     </div>
-    <div id="prod1">
+    <div id="pro1">
 
     </div>
-    <div id="prod2">
+    <div id="pro2">
 
     </div>
-        <div id="prod3">
-
-        </div>
+        
 </div>
 </div>
 </body>
@@ -146,10 +144,10 @@ var myHeaders = new Headers();
         .catch(error => console.log('error', error));
 
 
-    let parent = document.getElementById('prod');
-    let parent1 = document.getElementById('prod1');
-    let parent2 = document.getElementById('prod2');
-    let parent3 = document.getElementById('prod3');
+    let parent = document.getElementById('pro');
+    let parent1 = document.getElementById('pro1');
+    let parent2 = document.getElementById('pro2');
+   
     function showproduct(data)
     {
         
@@ -187,16 +185,7 @@ var myHeaders = new Headers();
         div.append(img,titl);
         parent2.append(div);
         })
-        data4.forEach((product)=>{
-        let div= document.createElement('div');
-        let img = document.createElement('img');
-        img.setAttribute('class','imgGif')
-        img.src=product.link;
-        let titl=document.createElement('p');
-        titl.textContent=product.title;
-        div.append(img,titl);
-        parent3.append(div);
-        })
+        
 }
 
 </script>

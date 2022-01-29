@@ -170,7 +170,7 @@ a {
     grid-template-columns: 25% 25% 25% 25%;
 
 }
-#mDiv {
+#ProductDiv {
     width: 100%;
     background-color: #2e3035;
     display: grid;
@@ -178,75 +178,68 @@ a {
     grid-gap: 1%;
 }
 
-#prod {
+#pro {
     width: 90%;
     margin-left: 5%;
     display: flex;
     flex-direction: column;
 }
 
-#prod div img {
+#pro div img {
     border-radius: 10px;
 }
 
-#prod p {
+#pro p {
     text-align: center;
     color: white;
 }
 
-#prod1 div img {
+#pro1 div img {
     border-radius: 10px;
 }
 
-#prod div:hover {
+#pro div:hover {
     transform: translateY(-0.4em);
     transition: all 0.5s;
     cursor: pointer;
 }
 
-#prod1 div:hover {
+#pro1 div:hover {
     transform: translateY(-0.4em);
     transition: all 0.5s;
     cursor: pointer;
 }
 
-#prod2 div:hover {
+#pro2 div:hover {
     transform: translateY(-0.4em);
     transition: all 0.5s;
     cursor: pointer;
 }
 
-#prod3 div:hover {
+#pro3 div:hover {
     transform: translateY(-0.4em);
     transition: all 0.5s;
     cursor: pointer;
 
 }
 
-#prod1 p {
+#pro1 p {
     text-align: center;
     color: white;
 }
 
-#prod2 div img {
+#pro2 div img {
     border-radius: 10px;
 }
 
-#prod2 p {
+#pro2 p {
     text-align: center;
     color: white;
 }
 
-#prod3 div img {
-    border-radius: 10px;
-}
 
-#prod3 p {
-    text-align: center;
-    color: white;
-}
 .imgGif {
-    width: 100%;
+    width: 25%;
 }
 
 /* .tab {
