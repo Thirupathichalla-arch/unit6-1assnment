@@ -245,6 +245,9 @@ a {
     text-align: center;
     color: white;
 }
+.imgGif {
+    width: 100%;
+}
 
 /* .tab {
     display: flex;

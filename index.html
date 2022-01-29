@@ -142,7 +142,7 @@ var myHeaders = new Headers();
 
     fetch("https://api.imgur.com/3/gallery/top/viral/month/1?showViral=true&mature=true&album_previews=true", requestOptions)
         .then(response => response.json())
-        .then(result => showprod(result.data))
+        .then(result => showProd(result.data))
         .catch(error => console.log('error', error));
 
 
